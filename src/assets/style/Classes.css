@@ -1,0 +1,49 @@
+/* Style for the entire Classes component */
+.Classes-components {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style for the header */
+.Header h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* General style for cards container */
+.Cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px; /* Space between cards */
+  margin-bottom: 20px;
+}
+
+/* Style for individual cards */
+.card-1 {
+  background-color: #f9f9f9; /* Light background color */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: left;
+  max-width: 300px;
+}
+
+/* Style for card images */
+.card-1 img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Style for card titles */
+.card-1 h3 {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+/* Style for card descriptions */
+.card-1 p {
+  font-size: 1em;
+  color: #666;
+  margin-top: 10px;
+}

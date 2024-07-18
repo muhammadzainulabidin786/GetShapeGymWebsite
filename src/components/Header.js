@@ -1,10 +1,10 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from '../assets/images/Vector.png';
-import React from 'react';
-import '../assets/style/Header.css';
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import logo from "../assets/images/Vector.png";
+import React from "react";
+import "../assets/style/Header.css";
 
 function Header() {
   return (
