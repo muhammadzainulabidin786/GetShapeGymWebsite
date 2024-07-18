@@ -1,0 +1,68 @@
+.custom-navbar {
+  background-color: black;
+}
+
+.navbar-brand-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.brand-text {
+  color: white;
+  font-weight: bold;
+  font-family:serif;
+}
+
+.brand-logo {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.nav-links {
+  margin-left: auto; /* Aligns the nav links to the right */
+}
+
+.nav-links .nav-link {
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+  margin-left: 40px;
+}
+
+.nav-links .nav-link:hover {
+  color: gray;
+}
+
+/* Custom styles for the navbar toggle icon */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Sidebar styles */
+.main-layout {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: black; /* Sidebar background color */
+  padding: 20px;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.sidebar .nav-link {
+  color: white;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.sidebar .nav-link:hover {
+  color: gray;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}

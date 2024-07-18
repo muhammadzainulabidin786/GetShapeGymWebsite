@@ -1,12 +1,16 @@
+// src/App.js
 import React from 'react';
+import Header from './components/Header';
+import Home from './components/Home';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Welcome to Your React App</h1>
-      </header>
+      <Header />
+      <Home />
+      {/* Other components and content go here */}
     </div>
   );
 }
