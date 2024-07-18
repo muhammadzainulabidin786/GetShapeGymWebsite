@@ -1,13 +1,35 @@
 /* Style for the entire Classes component */
 .Classes-components {
+  padding-top: 50px;
+  background-color: #1e1e1e;
   text-align: center;
-  padding: 20px;
 }
 
 /* Style for the header */
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 30px;
+}
+
 .Header h1 {
   font-size: 2.5em;
-  margin-bottom: 20px;
+  margin: 0 20px;
+  white-space: nowrap;
+  position: relative;
+  color: #ffffff;
+  z-index: 1;
+}
+
+/* Style for the lines on either side of the header */
+.Header::before,
+.Header::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid #ffffff;
+  margin: 0 20px;
 }
 
 /* General style for cards container */
@@ -21,12 +43,11 @@
 
 /* Style for individual cards */
 .card-1 {
-  background-color: #f9f9f9; /* Light background color */
+  background-color: #1e1e1e;
   padding: 20px;
-  border-radius: 8px; /* Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   text-align: left;
-  max-width: 300px;
+  max-width: 400px;
 }
 
 /* Style for card images */
@@ -37,13 +58,175 @@
 
 /* Style for card titles */
 .card-1 h3 {
+  color: #ffffff;
   font-size: 1.5em;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 /* Style for card descriptions */
 .card-1 p {
   font-size: 1em;
-  color: #666;
+  color: #ffffff;
   margin-top: 10px;
+}
+
+/* General style for the Services component */
+.Services {
+  background-color: #1e1e1e;
+  padding: 40px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Line before the header */
+.Services::before {
+  content: "";
+  display: block;
+  width: 4in;
+  height: 1.5px;
+  background-color: #fff;
+  margin: 0 auto 20px;
+}
+
+/* Style for the header */
+.Services-header h1 {
+  font-size: 2.5em;
+  margin: 0 0 20px;
+}
+
+/* Style for the images container */
+.Services-imgs {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between images */
+}
+
+/* Style for the images */
+.Services-imgs img {
+  width: 100%;
+  max-width: 90%;
+  border-radius: 5px;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  /* Large desktop styles */
+  .card-1 {
+    max-width: 350px;
+  }
+
+  .Services-imgs img {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Medium desktop styles */
+  .card-1 {
+    max-width: 300px;
+  }
+
+  .Services-imgs img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Tablet styles */
+  .Cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-1 {
+    max-width: 90%;
+  }
+
+  .Services::before {
+    width: 3in;
+  }
+
+  .Services-imgs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Services-imgs img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Small tablet and large phone styles */
+  .Header h1 {
+    font-size: 2em;
+  }
+
+  .Header::before,
+  .Header::after {
+    margin: 0 10px;
+  }
+
+  .Cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-1 {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .Services::before {
+    width: 2in;
+  }
+
+  .Services-header h1 {
+    font-size: 2em;
+  }
+
+  .Services-imgs img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Mobile styles */
+  .Header h1 {
+    font-size: 1.8em;
+  }
+
+  .Header::before,
+  .Header::after {
+    margin: 0 5px;
+  }
+
+  .Cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-1 {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .Services::before {
+    width: 1.5in;
+  }
+
+  .Services-header h1 {
+    font-size: 1.8em;
+  }
+
+  .Services-imgs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Services-imgs img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
 }

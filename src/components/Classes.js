@@ -6,6 +6,8 @@ import Pilates from "../assets/images/Pilates.png";
 import Boxfit from "../assets/images/Boxfit.png";
 import Cardio from "../assets/images/Cardio.png";
 import Cardio_circuit from "../assets/images/Cardio Circuit.png";
+import Service1 from "../assets/images/Service1.png";
+import Service2 from "../assets/images/Service2.png";
 
 function Classes() {
   return (
@@ -18,7 +20,13 @@ function Classes() {
           <div className="card-1">
             <img src={Bodybuilding} alt="Bodybuilding" />
             <h3>Bodybuilding</h3>
-            <p>Build your body with us</p>
+            <p>
+              {" "}
+              Flexibility and stretching class delivered with a sense of
+              spiritual and physical wellbeing. Styles of yoga are focused on a
+              combination of Hatha and Ashtanga- dynamic moving and breathing
+              yoga as opposed to stand still and hold a pose
+            </p>
           </div>
 
           <div className="card-1">
@@ -72,6 +80,19 @@ function Classes() {
               Designed for all levels of fitness, utilising cardio equipment and
               body weight exercises
             </p>
+          </div>
+        </div>
+        <div className="Services">
+          <div className="Services-header">
+            <h1>Our Services</h1>
+          </div>
+          <div className="Services-imgs">
+            <div className="img-1">
+              <img src={Service1} alt="service1" />
+            </div>
+            <div className="img-2">
+              <img src={Service2} alt="service2" />
+            </div>
           </div>
         </div>
       </div>
