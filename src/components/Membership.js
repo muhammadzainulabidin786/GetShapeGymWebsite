@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/style/Membership.css";
+
 function Membership() {
   return (
     <>
@@ -13,11 +14,13 @@ function Membership() {
             <p className="price">
               $165 <span>/mo</span>
             </p>
+
             <ul>
-              <li>All classes</li>
-              <li>All member events</li>
-              <li>Full gym access</li>
+              <li className="green-tick">All classes</li>
+              <li className="green-tick">All member events</li>
+              <li className="green-tick">Full gym access</li>
             </ul>
+
             <p className="charges">Charges every month unless you cancel</p>
             <button className="trial-button">start 7 day free trial</button>
           </div>
@@ -28,9 +31,9 @@ function Membership() {
               $145<span>/mo</span>
             </p>
             <ul>
-              <li>All classes</li>
-              <li>All member events</li>
-              <li>Full gym access</li>
+              <li className="green-tick">All classes</li>
+              <li className="green-tick">All member events</li>
+              <li className="green-tick">Full gym access</li>
             </ul>
             <p className="charges">Charges every 6 months unless you cancel</p>
             <button className="trial-button">start 7 day free trial</button>
@@ -42,9 +45,9 @@ function Membership() {
               $125<span>/mo</span>
             </p>
             <ul>
-              <li>All classes</li>
-              <li>All member events</li>
-              <li>Full gym access</li>
+              <li className="green-tick">All classes</li>
+              <li className="green-tick">All member events</li>
+              <li className="green-tick">Full gym access</li>
             </ul>
             <p className="charges">Charges every year unless you cancel</p>
             <button className="trial-button">start 7 day free trial</button>
