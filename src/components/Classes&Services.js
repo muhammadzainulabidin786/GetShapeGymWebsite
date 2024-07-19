@@ -9,7 +9,7 @@ import Cardio_circuit from "../assets/images/Cardio Circuit.png";
 import Service1 from "../assets/images/Service1.png";
 import Service2 from "../assets/images/Service2.png";
 
-function Classes() {
+function ClassesServices() {
   return (
     <>
       <div className="Classes-components">
@@ -100,4 +100,4 @@ function Classes() {
   );
 }
 
-export default Classes;
+export default ClassesServices;

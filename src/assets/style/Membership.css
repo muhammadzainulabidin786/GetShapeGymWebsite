@@ -1,0 +1,106 @@
+.membership-container {
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+.membership-heading h1 {
+  /* Existing styles */
+  font-family: Arial;
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 314px;
+  height: 74px;
+  border-radius: 50px;
+  /* Add these lines to center the element itself */
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.membership-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.membership-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  color: #000;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensure content is evenly distributed */
+}
+
+.membership-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.membership-card h2 {
+  font-size: 36;
+  font-weight: bolder;
+  font-family: Arial;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.price {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.price span {
+  color: #000;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.membership-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.membership-card ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.charges {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.trial-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  width: 166px;
+  height: 40px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.2s ease-in-out;
+  align-self: center; /* Center the button horizontally */
+}
+
+.trial-button:hover {
+  background-color: #45a049;
+}
