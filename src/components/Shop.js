@@ -40,7 +40,7 @@ function Shop() {
           </div>
         </div>
 
-        <h1>WEIGHT LIFTING EQUIPMENT</h1>
+        <h1>PROTEIN POWDER</h1>
         <div className="weight-lifting-eq">
           <div className="equipment">
             <img src={WhyProtein} alt="Why protein" />
